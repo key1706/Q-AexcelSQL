@@ -35,7 +35,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a href="index.php" class="navbar-brand">Q&A</a>
+            <a href="index.php" class="navbar-brand">Q&A Fresher FSOFT</a>
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -47,24 +47,24 @@
                 <li>
                     <a href="../help/">Help</a>
                 </li>
-                <li>
-                    <a href="http://news.bootswatch.com">Blog</a>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Cyborg <span class="caret"></span></a>
-                    <ul class="dropdown-menu" aria-labelledby="download">
-                        <li><a href="https://jsfiddle.net/bootswatch/q0gdqa1q/">Open Sandbox</a></li>
-                        <li class="divider"></li>
-                        <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-                        <li><a href="./bootstrap.css">bootstrap.css</a></li>
-                        <li class="divider"></li>
-                        <li><a href="./variables.less">variables.less</a></li>
-                        <li><a href="./bootswatch.less">bootswatch.less</a></li>
-                        <li class="divider"></li>
-                        <li><a href="./_variables.scss">_variables.scss</a></li>
-                        <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-                    </ul>
-                </li>
+<!--                <li>-->
+<!--                    <a href="http://news.bootswatch.com">Blog</a>-->
+<!--                </li>-->
+<!--                <li class="dropdown">-->
+<!--                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Cyborg <span class="caret"></span></a>-->
+<!--                    <ul class="dropdown-menu" aria-labelledby="download">-->
+<!--                        <li><a href="https://jsfiddle.net/bootswatch/q0gdqa1q/">Open Sandbox</a></li>-->
+<!--                        <li class="divider"></li>-->
+<!--                        <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>-->
+<!--                        <li><a href="./bootstrap.css">bootstrap.css</a></li>-->
+<!--                        <li class="divider"></li>-->
+<!--                        <li><a href="./variables.less">variables.less</a></li>-->
+<!--                        <li><a href="./bootswatch.less">bootswatch.less</a></li>-->
+<!--                        <li class="divider"></li>-->
+<!--                        <li><a href="./_variables.scss">_variables.scss</a></li>-->
+<!--                        <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
             </ul>
 
             <form action="index.php?p=search" class="navbar-form navbar-left" role="search" method="post">
@@ -76,6 +76,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="btn btn-warning" href="index.php?p=askquestion"><span style="color: #020202;">Ask Question</span></a>
+                </li>
+                <li style="padding-left: 10px;">
+                    <a class="btn btn-danger" href="index.php?p=askquestion"><span style="color: #020202;">Upload</span></a>
                 </li>
             </ul>
 

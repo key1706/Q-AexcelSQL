@@ -102,7 +102,7 @@ class DB_driver
         return $return;
     }
 
-    // Hàm lấy 1 record dùng trong trường hợp lấy chi tiết tin
+    // Hàm lấy 1 record dùng trong trường hợp lấy chi tiết
     function get_row($sql)
     {
         // Kết nối
